@@ -62,7 +62,7 @@ Write-Log "PowerShell: $($PSVersionTable.PSVersion)" "INFO"
 Write-Log "Рабочий каталог: $(Get-Location)" "INFO"
 
 # --- НАСТРОЙКИ ---
-$PythonScriptPath = "C:\Programs\Scripts\MD_To_PDF\md_to_pdf.py"
+$PythonScriptPath = "СКРИПТ НЕ ПРИЛОЖЕН"
 
 $script:ActiveExcludes = [System.Collections.ArrayList]@(
     ".git", ".vs", "bin", "obj", "node_modules",
